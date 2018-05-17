@@ -1,0 +1,21 @@
+// output: ../index.html
+
+html
+	head
+		meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no")
+		meta(charset="UTF-8")
+		link(rel="stylesheet" href="R/css/index.css")
+		script(src="R/js/index.js")
+	body
+		label Decimal
+		input(type="text" id="dec" placeholder="escribe aquí")
+		label Binario
+		input(type="text" id="bin" placeholder="escribe aquí")
+		label Octal
+		input(type="text" id="oct" placeholder="escribe aquí")
+		label Exadecimal
+		input(type="text" id="hex" placeholder="escribe aquí")
+		
+		div.message El numero no es convertible
+			
+		script(src="R/js/script.js")
